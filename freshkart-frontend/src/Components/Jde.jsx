@@ -31,7 +31,7 @@ const ConnectToJDE = () => {
   return (
     <div>
       <Typography variant="h4" gutterBottom>
-        Connect to JDE Orchestrator
+        Connect to JDE 
       </Typography>
       <Button variant="contained" color="primary" onClick={handleConnectToJDE}>
         Call Orchestrator
