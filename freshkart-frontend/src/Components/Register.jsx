@@ -72,7 +72,7 @@ const RegistrationForm = () => {
       <Box sx={loginStyles.outerloginBox}>
         <Box sx={loginStyles.innerloginBox}>
           <Typography variant="h4" align="center" color="text.primary" gutterBottom>
-            FreshKart Registration
+            Chat Agent Registration   
           </Typography>
           {message && <Typography align="center" color="success.main">{message}</Typography>}
           {error && <Typography align="center" color="error.main">{error}</Typography>}

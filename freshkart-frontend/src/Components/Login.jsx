@@ -35,7 +35,7 @@ const Login = () => {
       // Show success message or handle login (e.g., save token, redirect)
       setMessage(response.data.message || "Login successful!");
       setFormData({ email: "", password: "" });
-      nav('/jde')
+      nav('/chat')
 
 
       // You can also handle saving a token or redirecting the user:
